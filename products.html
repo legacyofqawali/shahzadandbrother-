@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fertilizer Products - Shahzad & Brothers offers premium quality fertilizers for agriculture">
+    <title>Products - Shahzad & Brothers Fertilizer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <i class="fas fa-leaf"></i>
+                <span>Shahzad & Brothers</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link active">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-icons">
+                <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PRODUCTS HERO SECTION -->
+    <section class="hero" style="height: 60vh; margin-top: 60px;">
+        <div class="hero-content">
+            <h1>Our Products</h1>
+            <p class="hero-tagline">Premium Quality Fertilizers for Every Crop and Soil Type</p>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="section products" id="products">
+        <div class="section-title">
+            <h2>Complete Product Range</h2>
+            <p class="section-subtitle">Comprehensive solutions for optimal crop production and soil health</p>
+        </div>
+
+        <!-- UREA -->
+        <div style="max-width: 900px; margin: 0 auto 3rem; background: var(--white); border-radius: 15px; overflow: hidden; box-shadow: var(--shadow); display: grid; grid-template-columns: 1fr 1fr; gap: 0;">
+            <div style="background: linear-gradient(135deg, var(--primary-green), var(--primary-dark)); display: flex; align-items: center; justify-content: center; padding: 2rem;">
+                <i class="fas fa-bottle" style="font-size: 4rem; color: var(--accent-gold);"></i>
+            </div>
+            <div style="padding: 2rem;">
+                <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem;">Urea (46-0-0)</h3>
+                <p style="color: var(--text-light); margin-bottom: 1rem;">
+                    High-nitrogen fertilizer essential for promoting leafy growth and overall plant productivity across all major crops.
+                </p>
+                <ul style="list-style: none; margin-bottom: 1.5rem; color: var(--text-light);">
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Nitrogen Content:</strong> 46%</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Best For:</strong> Wheat, Rice, Sugarcane, Maize</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Availability:</strong> 50kg & 100kg bags</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Quality:</strong> 99% Purity, Certified</li>
+                </ul>
+                <button class="btn btn-primary" onclick="contactForPrice();">Request Price Quote</button>
+            </div>
+        </div>
+
+        <!-- DAP -->
+        <div style="max-width: 900px; margin: 0 auto 3rem; background: var(--white); border-radius: 15px; overflow: hidden; box-shadow: var(--shadow); display: grid; grid-template-columns: 1fr 1fr; gap: 0;">
+            <div style="background: linear-gradient(135deg, var(--primary-green), var(--primary-dark)); display: flex; align-items: center; justify-content: center; padding: 2rem;">
+                <i class="fas fa-drum" style="font-size: 4rem; color: var(--accent-gold);"></i>
+            </div>
+            <div style="padding: 2rem;">
+                <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem;">DAP (Diammonium Phosphate)</h3>
+                <p style="color: var(--text-light); margin-bottom: 1rem;">
+                    Balanced P and N fertilizer promoting root development, flowering, and fruit quality in all crops.
+                </p>
+                <ul style="list-style: none; margin-bottom: 1.5rem; color: var(--text-light);">
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>NPK Ratio:</strong> 18-46-0</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Best For:</strong> Cotton, Pulses, Vegetables, Fruits</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Availability:</strong> 50kg bags</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Quality:</strong> Premium Grade, Imported</li>
+                </ul>
+                <button class="btn btn-primary" onclick="contactForPrice();">Request Price Quote</button>
+            </div>
+        </div>
+
+        <!-- NPK -->
+        <div style="max-width: 900px; margin: 0 auto 3rem; background: var(--white); border-radius: 15px; overflow: hidden; box-shadow: var(--shadow); display: grid; grid-template-columns: 1fr 1fr; gap: 0;">
+            <div style="background: linear-gradient(135deg, var(--primary-green), var(--primary-dark)); display: flex; align-items: center; justify-content: center; padding: 2rem;">
+                <i class="fas fa-cube" style="font-size: 4rem; color: var(--accent-gold);"></i>
+            </div>
+            <div style="padding: 2rem;">
+                <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem;">NPK Complex Fertilizer</h3>
+                <p style="color: var(--text-light); margin-bottom: 1rem;">
+                    Balanced macro-nutrient formula for overall plant health, ensuring comprehensive nutrition for maximum crop yield.
+                </p>
+                <ul style="list-style: none; margin-bottom: 1.5rem; color: var(--text-light);">
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Ratios Available:</strong> 15-15-15, 20-20-0, 17-17-17</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Best For:</strong> All Crops</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Availability:</strong> 50kg bags</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Quality:</strong> Premium Blended</li>
+                </ul>
+                <button class="btn btn-primary" onclick="contactForPrice();">Request Price Quote</button>
+            </div>
+        </div>
+
+        <!-- POTASH -->
+        <div style="max-width: 900px; margin: 0 auto 3rem; background: var(--white); border-radius: 15px; overflow: hidden; box-shadow: var(--shadow); display: grid; grid-template-columns: 1fr 1fr; gap: 0;">
+            <div style="background: linear-gradient(135deg, var(--primary-green), var(--primary-dark)); display: flex; align-items: center; justify-content: center; padding: 2rem;">
+                <i class="fas fa-gem" style="font-size: 4rem; color: var(--accent-gold);"></i>
+            </div>
+            <div style="padding: 2rem;">
+                <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem;">Potash (Muriate of Potash)</h3>
+                <p style="color: var(--text-light); margin-bottom: 1rem;">
+                    Essential potassium fertilizer for crop strength, disease resistance, and enhanced shelf life of fruits and vegetables.
+                </p>
+                <ul style="list-style: none; margin-bottom: 1.5rem; color: var(--text-light);">
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Potassium Content:</strong> 60%</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Best For:</strong> Fruits, Vegetables, Potatoes</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Availability:</strong> 50kg bags</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Quality:</strong> High Purity Grade</li>
+                </ul>
+                <button class="btn btn-primary" onclick="contactForPrice();">Request Price Quote</button>
+            </div>
+        </div>
+
+        <!-- ZINC -->
+        <div style="max-width: 900px; margin: 0 auto 3rem; background: var(--white); border-radius: 15px; overflow: hidden; box-shadow: var(--shadow); display: grid; grid-template-columns: 1fr 1fr; gap: 0;">
+            <div style="background: linear-gradient(135deg, var(--primary-green), var(--primary-dark)); display: flex; align-items: center; justify-content: center; padding: 2rem;">
+                <i class="fas fa-sparkles" style="font-size: 4rem; color: var(--accent-gold);"></i>
+            </div>
+            <div style="padding: 2rem;">
+                <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem;">Zinc Sulphate</h3>
+                <p style="color: var(--text-light); margin-bottom: 1rem;">
+                    Micronutrient fertilizer preventing zinc deficiency while improving crop quality, grain size, and overall productivity.
+                </p>
+                <ul style="list-style: none; margin-bottom: 1.5rem; color: var(--text-light);">
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Zinc Content:</strong> 33%</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Best For:</strong> Cereals, Rice, Maize</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Availability:</strong> 25kg bags</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Quality:</strong> Pure & Soluble</li>
+                </ul>
+                <button class="btn btn-primary" onclick="contactForPrice();">Request Price Quote</button>
+            </div>
+        </div>
+
+        <!-- SEED PRODUCTS -->
+        <div style="max-width: 900px; margin: 0 auto 3rem; background: var(--white); border-radius: 15px; overflow: hidden; box-shadow: var(--shadow); display: grid; grid-template-columns: 1fr 1fr; gap: 0;">
+            <div style="background: linear-gradient(135deg, var(--primary-green), var(--primary-dark)); display: flex; align-items: center; justify-content: center; padding: 2rem;">
+                <i class="fas fa-seedling" style="font-size: 4rem; color: var(--accent-gold);"></i>
+            </div>
+            <div style="padding: 2rem;">
+                <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem;">Certified Seeds</h3>
+                <p style="color: var(--text-light); margin-bottom: 1rem;">
+                    Premium quality certified seeds with high germination rates, disease resistance, and excellent field performance.
+                </p>
+                <ul style="list-style: none; margin-bottom: 1.5rem; color: var(--text-light);">
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Varieties:</strong> Wheat, Rice, Cotton, Maize</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Certification:</strong> Government Certified</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Germination Rate:</strong> 95%+</li>
+                    <li><i class="fas fa-check" style="color: var(--primary-green); margin-right: 0.5rem;"></i> <strong>Quality:</strong> Disease Resistant Varieties</li>
+                </ul>
+                <button class="btn btn-primary" onclick="contactForPrice();">Request Price Quote</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY OUR PRODUCTS -->
+    <section class="section features" style="background: linear-gradient(180deg, var(--white), var(--light-bg));">
+        <div class="section-title">
+            <h2>Why Choose Our Products</h2>
+            <p class="section-subtitle">Premium quality assurance and farmer satisfaction</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3>Certified Quality</h3>
+                <p>All products are certified by relevant government authorities and meet international quality standards for purity and efficacy.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <h3>Tested & Verified</h3>
+                <p>Rigorous lab testing ensures consistent quality, proper nutrient content, and absence of harmful contaminants.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Expert Guidance</h3>
+                <p>Our agronomists provide personalized recommendations for the right product and application rate for your crops.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-truck"></i>
+                </div>
+                <h3>Fast Delivery</h3>
+                <p>Quick and reliable delivery service across Punjab ensuring your crops get nutrients exactly when you need them.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-tag"></i>
+                </div>
+                <h3>Competitive Pricing</h3>
+                <p>Quality fertilizers at reasonable prices with bulk discounts available for cooperative societies and large farmers.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3>Sustainable Sourcing</h3>
+                <p>We source products responsibly with a commitment to environmental sustainability and long-term soil health.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="section" style="background: linear-gradient(135deg, var(--primary-green), var(--primary-dark)); color: var(--white); text-align: center; padding: 4rem 2rem;">
+        <div class="container">
+            <h2 style="color: var(--white); margin-bottom: 1rem;">Ready to Order?</h2>
+            <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: 2rem; font-size: 1.1rem;">
+                Contact us today for pricing, availability, and delivery information on any of our products.
+            </p>
+            <button class="btn btn-secondary" onclick="window.location.href='contact.html';">
+                <i class="fas fa-phone"></i> Contact Us Now
+            </button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Company</h4>
+                <p>Shahzad & Brothers Fertilizer is dedicated to providing premium agricultural inputs and expert guidance to farmers across Punjab since 2013.</p>
+                <div class="social-links">
+                    <div class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="social-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="products.html">Urea</a></li>
+                    <li><a href="products.html">DAP</a></li>
+                    <li><a href="products.html">NPK</a></li>
+                    <li><a href="products.html">Potash</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+923437082553">+92 343 7082553</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:shahzadncc1212@gmail.com">shahzadncc1212@gmail.com</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> Shahzadandbrother-63 Gallah Mandi Okara</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024-2026 Shahzad & Brothers Fertilizer. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #d4af37;"></i> for Agriculture</p>
+        </div>
+    </footer>
+
+    <!-- FLOATING BUTTONS -->
+    <div class="whatsapp-btn" onclick="window.open('https://wa.me/923001234567', '_blank');" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+
+    <div class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script>
+        function contactForPrice() {
+            window.location.href = 'contact.html';
+        }
+    </script>
+</body>
+</html>
